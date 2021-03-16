@@ -25,7 +25,7 @@ A simple game of maze in react. You have to touch all the red sprites, from the 
 The application uses es6.
 
 ```
-$ git clone https://github.com/yashpriyam/teachers-authoring-cra.git
+$ git clone https://github.com/yashpriyam/react-maze-game.git
 $ npm install
 $ npm start
 ```
