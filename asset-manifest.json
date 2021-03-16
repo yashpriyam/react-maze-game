@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-maze-game/static/css/main.1e123e05.chunk.css",
+    "main.js": "/react-maze-game/static/js/main.6df87d4d.chunk.js",
+    "main.js.map": "/react-maze-game/static/js/main.6df87d4d.chunk.js.map",
+    "runtime-main.js": "/react-maze-game/static/js/runtime-main.f9f052fd.js",
+    "runtime-main.js.map": "/react-maze-game/static/js/runtime-main.f9f052fd.js.map",
+    "static/js/2.ae656fbe.chunk.js": "/react-maze-game/static/js/2.ae656fbe.chunk.js",
+    "static/js/2.ae656fbe.chunk.js.map": "/react-maze-game/static/js/2.ae656fbe.chunk.js.map",
+    "static/js/3.44972819.chunk.js": "/react-maze-game/static/js/3.44972819.chunk.js",
+    "static/js/3.44972819.chunk.js.map": "/react-maze-game/static/js/3.44972819.chunk.js.map",
+    "index.html": "/react-maze-game/index.html",
+    "static/css/main.1e123e05.chunk.css.map": "/react-maze-game/static/css/main.1e123e05.chunk.css.map",
+    "static/js/2.ae656fbe.chunk.js.LICENSE.txt": "/react-maze-game/static/js/2.ae656fbe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9f052fd.js",
+    "static/js/2.ae656fbe.chunk.js",
+    "static/css/main.1e123e05.chunk.css",
+    "static/js/main.6df87d4d.chunk.js"
+  ]
+}
