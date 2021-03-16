@@ -1,6 +1,6 @@
 # Curriculum Authoring Tool
 
-It is a tool which allows educators to create a an ordered learn journey or a lesson plan for a subject, chapter or a topic.
+A simple game of maze in react. You have to touch all the red sprites, from the green sprite, using keybord up, down, right and left keys to complete the game.
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=yashpriyam&repo=react-maze-game)](https://github.com/anuraghazra/github-readme-stats)
 
