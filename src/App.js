@@ -33,9 +33,11 @@ const App = () => {
   const startColVal = getRandomInt(0, cols - 1);
 
   function createSpritesArray() {
-    const spritesArray = new Array(Math.round((rows * cols) / 10))
-    .fill(1);
-    spritesArray.forEach((el, idx, arr) => arr[idx] = [getRandomInt(0, rows - 1), getRandomInt(0, cols - 1)]);
+    const spritesArray = new Array(Math.round((rows * cols) / 10)).fill(1);
+    spritesArray.forEach(
+      (el, idx, arr) =>
+        (arr[idx] = [getRandomInt(0, rows - 1), getRandomInt(0, cols - 1)])
+    );
 
     return spritesArray;
   }
@@ -43,8 +45,9 @@ const App = () => {
   const mazeArray = () => new Array(rows).fill(new Array(cols).fill(1));
 
   return (
-    <div>
+    <div className="App">
       <input
+        className="input"
         name="height"
         type="number"
         min={1}
@@ -53,6 +56,7 @@ const App = () => {
         onChange={inputChangeHanlder}
       />
       <input
+        className="input"
         name="width"
         type="number"
         min={1}
@@ -61,7 +65,7 @@ const App = () => {
         onChange={inputChangeHanlder}
       />
 
-      <button onClick={createMazeBoard}>Create</button>
+      <div><button className="create-button" onClick={createMazeBoard}>Create</button></div>
 
       {showMazeBoard && (
         <MazeBoard

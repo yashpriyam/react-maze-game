@@ -53,11 +53,11 @@ const MazeBoard = (props) => {
       ref={mazeBoardFocus}
     >
       <div className="game-live">
-        <div>{`You have made ${numberOfMoves} move/s`}</div>
+        <div>{`You have made`} <span>{numberOfMoves}</span> {` move/s`}</div>
         {spritesArray.length !== 0 ? (
           mazeArray.map((arry, rIdx) => {
             return (
-              <div key={rIdx}>
+              <div className="maze-board" key={rIdx}>
                 {arry.map((sq, cIdx) => {
                   const showGreen =
                     greenRowPosition === rIdx && greenColPosition === cIdx;

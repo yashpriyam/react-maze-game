@@ -1,6 +1,7 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  margin: 20px;
 }
 
 .square-box {
@@ -27,4 +28,32 @@
   background-color: rgb(206, 35, 72);
   z-index: -1;
   margin: 1px 1px 1px -3px;
+}
+
+.create-button{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+}
+
+.game-live .move-count{
+  border-radius: 50%;
+  padding: 5px;
+  background-color: tomato;
+}
+
+.game-live {
+  margin: 20px;
+}
+
+.maze-board{
+  margin: 5px;
+}
+.input{
+  padding: 5px;
+}
+
+.input:empty{
+  border-color: 1px solid hotpink;
 }
