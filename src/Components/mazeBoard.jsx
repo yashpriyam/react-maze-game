@@ -53,7 +53,7 @@ const MazeBoard = (props) => {
       ref={mazeBoardFocus}
     >
       <div className="game-live">
-        <div>{`You have made`} <span>{numberOfMoves}</span> {` move/s`}</div>
+        <div>{`You have made`} <span className="move-count">{numberOfMoves}</span> {` move/s`}</div>
         {spritesArray.length !== 0 ? (
           mazeArray.map((arry, rIdx) => {
             return (
