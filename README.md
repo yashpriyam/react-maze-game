@@ -1,24 +1,23 @@
-# Curriculum Authoring Tool
+# React Maze Game
 
 A simple game of maze in react. You have to touch all the red sprites, from the green sprite, using keybord up, down, right and left keys to complete the game.
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=yashpriyam&repo=react-maze-game)](https://github.com/anuraghazra/github-readme-stats)
 
-## Live Tool
+## Live Game
 
 **[Game Live](https://yashpriyam.github.io/react-maze-game/)**
 
-## Project Demo
+## Game Demo
 
-![](maze-game.gif)
+![Game demo](maze-game.gif)
 
 ## Features
 
-- [x] **Sign In - Sign out:** For users to start with the tool, they need to Sign in to the application using their google id.
-- [x] **Indent - Outdent:** For creating or removing parent child relations between tasks.
-- [x] **Delete Task:** For removing individual tasks at any level.
-- [x] Deleting tasks deletes all the child elements of the tasks, if any.
-- [x] **Delete All** Task: For removing all tasks at once.
+- [x] **Key Up:** To move up
+- [x] **Key down:** To move down.
+- [x] **Key rightk:** To move right.
+- [x] **Key left** To move left.
 
 
 ## Liked the game? For getting started with the codebase:
